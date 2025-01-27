@@ -9,10 +9,10 @@ import {
 } from "./services/api";
 // Import API service functions for interacting with the backend.
 
-import UserForm from "./components/UserForm";
+import UserForm from "./components/userForm";
 // Import the UserForm component for adding and editing user data.
 
-import UserTable from "./components/UserTable";
+import UserTable from "./components/userTable";
 // Import the UserTable component for displaying the list of users.
 
 import "./App.css";
