@@ -1,8 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+src/
+├── components/       # Contains UI components
+│   ├── UserForm.js   # Form for adding/editing users
+│   ├── UserTable.js  # Displays the list of users in a table
+├── services/         # Handles API requests
+│   └── api.js        # Functions for fetching, adding, updating, and deleting users
+├── App.js            # Main logic of the app
+├── App.css           # Application styling
+└── index.js          # Entry point for the app
