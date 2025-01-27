@@ -1,0 +1,148 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* General container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Form container styles */
+.form-container {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-header {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.875rem;
+}
+
+/* User table styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f1f1f1;
+}
+
+.action-button {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-button.edit {
+  background-color: #28a745;
+  color: white;
+}
+
+.action-button.edit:hover {
+  background-color: #218838;
+}
+ 
+
+.action-button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.action-button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Loading text */
+.loading {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.user-table-head
+{
+  color: black;
+   
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-group {
+    gap: 5px;
+  }
+
+  .input {
+    font-size: 0.875rem;
+  }
+
+  .button {
+    font-size: 0.875rem;
+    padding: 8px 12px;
+  }
+
+  .user-table th, .user-table td {
+    font-size: 0.875rem;
+    padding: 8px;
+    
+  }
+}
+
